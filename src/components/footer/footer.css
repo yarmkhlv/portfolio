@@ -1,0 +1,12 @@
+.footer {
+  margin-top: auto;
+  background-color: var(--changed-black);
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+
+  padding: 35px 0;
+}

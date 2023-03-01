@@ -1,0 +1,37 @@
+.btn-outline {
+  display: inline-block;
+
+  padding: 12px 20px;
+  border-radius: 5px;
+
+  border: 2px solid transparent;
+  animation: gradient-border-animation 3s linear infinite;
+  transition: transform 0.2s ease-out;
+  background-color: white;
+
+  color: var(--changed-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+}
+.btn-outline:hover {
+  transform: scale(1.05);
+}
+@keyframes gradient-border-animation {
+  0% {
+    border: 2px solid var(--changed-black);
+  }
+  25% {
+    border: 2px solid var(--purple-blue);
+  }
+  50% {
+    border: 2px solid var(--purple-blue-hover);
+  }
+  75% {
+    border: 2px solid var(--purple-blue-active);
+  }
+  100% {
+    border: 2px solid var(--changed-black);
+  }
+}

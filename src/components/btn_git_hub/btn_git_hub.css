@@ -35,3 +35,7 @@
     border: 2px solid var(--changed-black);
   }
 }
+
+.btn-outline__img {
+  margin-right: 10px;
+}

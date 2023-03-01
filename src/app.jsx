@@ -14,11 +14,11 @@ import ScrollToTop from "./utils/scroll_to_top";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio">
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectPage />} />
           <Route path="/contacts" element={<Contacts />} />

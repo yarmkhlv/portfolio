@@ -11,7 +11,7 @@ function Header() {
           <br />
           I'm a frontend developer.
         </h1>
-        <a download href="./cv_ru.pdf" className="btn" rel="noopener">
+        <a download href="cv_ru.pdf" className="btn" rel="noopener">
           Download CV
         </a>
       </div>

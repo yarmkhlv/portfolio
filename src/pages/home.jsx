@@ -11,7 +11,7 @@ function Home() {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, React, Redux, Redux Toolkit, MaterialUI,
+                JavaScript, TypeScript, React, Redux, Redux Toolkit, Tailwind,
                 HTML, CSS, NPM, GIT
               </p>
             </li>

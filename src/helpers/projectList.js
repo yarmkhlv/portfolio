@@ -4,6 +4,8 @@ import weather_big from "./../img/projects/weather_big.jpg";
 import weather_small from "./../img/projects/weather_small.jpg";
 import movies_small from "./../img/projects/movies_small.jpg";
 import movies_big from "./../img/projects/movies_big.jpg";
+import meta_big from "./../img/projects/meta_big.jpg";
+import meta_small from "./../img/projects/meta_small.jpg";
 
 const projectsList = [
   {
@@ -29,6 +31,14 @@ const projectsList = [
     bigImg: weather_big,
     gitHubLink: "https://yarmkhlv.github.io/pet_prj_weather/",
     id: 3,
+  },
+  {
+    title: "Crypto",
+    skills: "TypeScript, React, Redux Toolkit, React-router, Tailwind",
+    img: meta_small,
+    bigImg: meta_big,
+    gitHubLink: "https://yarmkhlv.github.io/test/",
+    id: 4,
   },
 ];
 
